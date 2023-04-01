@@ -1,0 +1,168 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+body {
+    background-image:url('https://source.unsplash.com/1600x900/?piano');
+	text-align: center;
+	color: #f3edeb;
+	font: 15px ;
+	margin: 0px;
+	padding: 20px 0px 20px 0px;
+}
+a {
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+	color: black;
+	text-decoration: underline;
+}
+img {
+	border: 0px;
+}
+#wrapper {
+	width: 778px;
+	margin: auto;
+	text-align: left;
+}
+#header p {
+	font-size:18px;
+	font-style:italic;
+	color:#FFFFFF;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+#header {
+	height: 320px;
+	border-radius: 30px;
+	background: url('https://source.unsplash.com/1600x900/?guitar') no-repeat;
+}
+#header div {
+	padding: 183px 213px 0px 82px;
+}
+#header p {
+	margin: 0px;
+	padding: 0px;
+}
+#header a {
+	color:#FFFFFF;
+}
+#nav {
+	width: 740px;
+	height:48px;
+	margin: 0px 0px 0px 20px;
+	background-repeat:no-repeat;
+	display:inline;
+	float:left;
+	
+}
+#nav a {
+	font-size:18px;
+	font-style:italic;
+	color: white;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	margin: 12px 0px 10px 0px;
+	padding: 0px 20px 0px 20px;
+	display:inline;
+	float:left;
+	border-right-width: 2px;
+	border-right-style: inset;
+}
+#nav a:hover {
+	color: black;
+	text-decoration:none;
+}
+.lastchild {
+	border-right: none 0px !important;
+}
+#body {
+    clear: both;
+	width: 100%;
+}
+
+#about-box {
+	float: left;
+	width: 315px;
+}
+#about-box ul {
+	margin-left: 8px;
+}
+#express-box {
+	float: right;
+	width: 327px;
+}
+#foot {
+	text-align: center;
+	width: 608px;
+	height: 400px;
+	border-radius: 30px;
+	padding: 183px 213px 0px 82px;
+	margin-left: auto;
+	margin-right: auto;
+	background: url("https://source.unsplash.com/1600x900/?music studio") repeat-y;
+}
+
+#what-box {
+	float: left;
+	width: 332px;
+}
+#what-box img.left {
+	margin-left: 10px;
+}
+#what-box ul {
+	float: left;
+	margin-left: 2px;
+	width: 184px;
+}
+#news-box {
+	float: right;
+	width: 316px;
+}
+#news-box ul {
+	float: left;
+	margin-left: 2px;
+	width: 184px;
+}
+#footer {
+	margin: 14px;
+	text-align: center;
+}
+h2 {
+	margin: 0px;
+	padding: 0px 0px 10px 0px;
+	font:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	font-style:italic;
+
+	color:#463d39;
+}
+h2 b{
+	color:#b8a197;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+li {
+	margin: 0px;
+	padding: 0px 0px 5px 20px;
+	list-style: none;
+	}
+p {
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+div.narrow-text {
+	margin-right: 18px;
+}
+img.left {
+	float: left;
+	padding-right: 14px;
+	padding-bottom: 16px;
+}
+
+.clear {
+	clear: both;
+}

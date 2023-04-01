@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    background-image: url("https://source.unsplash.com/1600x900/?drums");
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    background-color: #0099cc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0077b3;
+  }
+  
+  .contact-details {
+    margin-top: 40px;
+  }
+  
+  h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin: 0;
+    line-height: 1.5;
+  }
+  
